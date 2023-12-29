@@ -46,6 +46,6 @@ def receive_sensor_data():
     return jsonify({'message': 'Data received successfully'}), 200
 
 if __name__ == '__main__':
-    app.run(debug=True, ssl_context='adhoc')
+    app.run(debug=True)
 
 #, host='192.168.1.101', port=9000
